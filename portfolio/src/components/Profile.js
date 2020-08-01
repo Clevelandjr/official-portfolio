@@ -1,12 +1,12 @@
 import React from 'react';
-import Logo from './assets/author.jpg'
+
 
 class Profile extends React.Component {
     render() {
         return (
             <div className="ms-textAlignCenter">
                 <div className="sg-profile-image">
-                    <img src={Logo} alt="profile image"/>
+                    <img src="" alt="profile image"/>
                 </div>
                 <h2 className="ms-font-m-plus ms-fontSize-xl">Cleveland Pitt Jr.</h2>
                 <hr />
