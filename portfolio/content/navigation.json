@@ -27,24 +27,29 @@
               "key":"key4",  
               "links": [
                 {
-                  name: 'Stats',
-                  url: 'http://msn.com',
-                  key: 'key4',
-                  target: '_blank',
+                  "name": "Stats",
+                  "url": "/#/web-applications/stats/",
+                  "key": "key5",
+                  "icon":"Search"
                 },
                 {
-                  name: 'MSN',
-                  url: 'http://msn.com',
-                  disabled: true,
-                  key: 'key5',
-                  target: '_blank',
-                },
-              ],
+                  "name": "MSN",
+                  "url": "http://msn.com",
+                  "icon":"Info",
+                  "key": "key6"
+                  
+                }
+                
+              ],"isExpanded": true
+            }
+        ]
+    }
+],
     "navigation": {
       "/#/": "key1",
       "/#/about/": "key2",
       "/#/resume/": "key3",
       "/#/web-applications/": "key4",
-      "/#/web-applications/snake-game/": "key5"
+      "/#/web-applications/stats/": "key5"
     }
   }
