@@ -3,11 +3,10 @@
       {
         "links": [
             {
-              name: 'Home',
-              url: 'http://example.com',
-              key: 'key1',
-              isExpanded: true,
-              target: '_blank',
+              "name": "Home",
+              "url": "Home",
+              "key": "key1",
+              "icon": "Home"
             },
             {
               name: 'About',
