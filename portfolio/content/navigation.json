@@ -10,16 +10,16 @@
             },
             {
               "name": "About",
-              "url": "/#/about",
+              "url": "/#/about/",
               "key": "key2",
               "icon":"Info"
             },
             {
-              name: 'Resume',
-              url: 'http://example.com',
-              key: 'key3',
-              isExpanded: true,
-              target: '_blank',
+              "name": "Resume",
+              "url": "/#/resume/",
+              "key": "key3",
+              "icon": "WordDocument"
+              
             },
             {
               name: 'Web Applications',
