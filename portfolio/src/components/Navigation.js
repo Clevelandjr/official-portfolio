@@ -7,8 +7,24 @@ import { initializeIcons } from 'office-ui-fabric-react/lib/Icons';
 initializeIcons();
 
 class Navigation extends React.Component {
+   
 
+        constructor(props) {
+            super(props);
+        }
+    
+    
+        render() {
+            return (
+                <Nav
+                    groups={content.links}
+                    onLinkClick={this.props.currentUrl}
+                    selectedKey={this.props.url}
+                    expandButtonAriaLabel={'Expand or collapse'}
+                />
+            )
+        }
+    }
 
-}
 
 export default Navigation;
