@@ -4,16 +4,15 @@
         "links": [
             {
               "name": "Home",
-              "url": "Home",
+              "url": "/#/",
               "key": "key1",
               "icon": "Home"
             },
             {
-              name: 'About',
-              url: 'http://example.com',
-              key: 'key2',
-              isExpanded: true,
-              target: '_blank',
+              "name": "About",
+              "url": "/#/about",
+              "key": "key2",
+              "icon":"Info"
             },
             {
               name: 'Resume',
