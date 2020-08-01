@@ -1,18 +1,18 @@
 import React from 'react';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        
-        <p>
-          Whats really good?
-        </p>
-        
-      </header>
-    </div>
-  );
+
+import Social from "./components/Social";
+import Profile from "./components/Profile";
+
+class App extends React.Component {
+    render() {
+        return (
+            <main className="sg-container sg-home">
+                <Profile />
+                <Social />
+            </main>
+        )
+    }
 }
 
 export default App;
