@@ -6,7 +6,7 @@ class Profile extends React.Component {
         return (
             <div className="ms-textAlignCenter">
                 <div className="sg-profile-image">
-                    <img src="" alt="profile image"/>
+                    <img src={} alt="profile image"/>
                 </div>
                 <h2 className="ms-font-m-plus ms-fontSize-xl">Cleveland Pitt Jr.</h2>
                 <hr />
