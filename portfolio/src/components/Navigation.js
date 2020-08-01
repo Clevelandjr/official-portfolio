@@ -4,7 +4,7 @@ import {Nav, INavLink, INavStyles, INavLinkGroup} from 'office-ui-fabric-react/l
 // Initialize icons in case this example uses them
 initializeIcons();
 
-const navStyles: Partial<INavStyles> = {
+const navStyles = {
   root: {
     width: 208,
     height: 350,
@@ -14,7 +14,7 @@ const navStyles: Partial<INavStyles> = {
   },
 };
 
-const navLinkGroups: INavLinkGroup[] = [
+const navLinkGroups = [
   {
     links: [
       {
