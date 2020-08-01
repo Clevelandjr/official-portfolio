@@ -22,11 +22,10 @@
               
             },
             {
-              name: 'Web Applications',
-              url: 'http://example.com',
-              expandAriaLabel: 'Expand Home section',
-              collapseAriaLabel: 'Collapse Home section',
-              links: [
+              "name": "Web Applications",
+              "url": "/#/web-applications/",
+              "key":"key4",  
+              "links": [
                 {
                   name: 'Stats',
                   url: 'http://msn.com',
